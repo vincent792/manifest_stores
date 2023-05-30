@@ -1,0 +1,21 @@
+ <style type="text/css">
+			    	.errors {
+        /* Add your custom error message styling here */
+        color: red;
+        font-weight: bold;
+    }
+			    </style>
+			  
+			    	<div class="container">
+			    		<div class="row errors">
+			    {{form.email.errors}}  
+
+			    			
+			    		</div>
+			    		<div class="row errors">
+			
+			      {{form.non_field_errors}}
+			    			
+			    			
+			    		</div>
+			    	</div>
